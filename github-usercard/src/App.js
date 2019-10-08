@@ -32,7 +32,7 @@ class App extends React.Component{
   render(){
     return(
       <div>
-        <UserCard {...this.state.profile} followers={this.state.followers} />
+        <UserCard {...this.state.profile} follower = {this.state.followers}/>
       </div>
     )
   }
